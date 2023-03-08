@@ -1,0 +1,96 @@
+body{
+   background-image: url(background.jpg); 
+   background-size: contain;
+   background-color:beige;
+    padding: 0px;
+    margin: auto;
+    color: maroon;
+ }
+ p{
+    font-size: 18px;
+    color: maroon;
+ }
+ .a-bisque {
+    color: bisque;
+    text-decoration: none;
+ }
+ .a-coral {
+   color: coral;
+ }
+.card-link{
+    color: coral;
+}
+ a:hover {
+    color: maroon;
+    text-decoration: none;
+ }
+ li{
+    font-size: 18px;
+    color: maroon;
+ }
+ img{
+    border-radius: 50%;
+    border: 2px solid darkkhaki;
+    width: 300px;
+ }
+ .dark{
+    background-color: darkkhaki;
+ }
+ .light{
+    background-color: beige;
+ }
+ #cat-photo-form{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    font-size: 14px;
+    text-align: center;
+    color: maroon;
+ }
+.center{
+ margin: auto;
+ width: 50%;
+}
+button{
+ background-color: coral;
+ border-radius: 5px;
+ border-color: darkkhaki;
+}
+.navbar-brand{
+    font-family: Lobster;
+}
+.navbar-toggler {
+   padding: 0.25rem 0.75rem;
+   font-size: 1.25rem;
+   line-height: 1;
+   background-color: transparent;
+   border: 2px solid bisque;
+   border-radius: 0.25rem;
+   transition: box-shadow 0.15s ease-in-out;
+ }
+ @media (prefers-reduced-motion: reduce) {
+   .navbar-toggler {
+     transition: none;
+   }
+ }
+ .navbar-toggler:hover {
+   text-decoration: none;
+ }
+ .navbar-toggler:focus {
+   text-decoration: none;
+   outline: 0;
+   box-shadow: 0 0 0 0.15rem;
+ }
+ 
+ .navbar-toggler-icon {
+   display: inline-block;
+   width: 1.5em;
+   height: 1.5em;
+   vertical-align: middle;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100%;
+ }
+ 
