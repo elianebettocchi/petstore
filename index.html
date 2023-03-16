@@ -9,142 +9,152 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg dark sticky-top">
-      <div class="container-fluid">
+  <nav class="navbar navbar-expand-sm dark navbar-inverse navbar-light sticky-top">
+    <div class="container-fluid"> 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
-            <span class="navbar-toggler-icon a-bisque"></span>
-        </button>   
-        <a class="navbar-brand a-bisque" href="#">Pet Store</a>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#"><img class="img-fluid logo" src="logo.png" alt="logo"></a>
         <div class="collapse navbar-collapse" id="mainNav">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link a-bisque" href="#about">About</a>
-            </li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle a-bisque" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item a-coral" href="#contact">Service 1</a>
-                <a class="dropdown-item a-coral" href="#contact">Service 2</a>
-                <a class="dropdown-item a-coral" href="#contact">Service 3</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item a-coral" href="#contact">Adoption</a>
-              </div>
-            </li>
-          </ul>
-          <div class="mx-3">
-          <button><a href="#"><i class="bi bi-person-hearts a-bisque"></i></a></button> 
-          <button><a href="#"><i class="bi bi-cart3 a-bisque"></i></a></button>
-        </div>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-      <div class="container p-5">
-        <div class="row">
-            <div class="col-sm-12 col-lg-4">
-      <div class="card" style="width: 18rem;">
-        <img src="map.jpg" class="card-img-top" alt="map">
-        <div class="card-body">
-          <h5 class="card-title">Address</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-        <div class="card-body">
-          <button><a class="a-bisque" href="#">Share Map</a></button>
-        </div></div></div>
-        <div class="col-sm-12 col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="pet.jpg" class="card-img-top" alt="cat">
-              <div class="card-body">
-                <h5 class="card-title">About</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-              </ul>
-              <div class="card-body">
-                <button><a class="a-bisque" href="#about">Send a picture of your pet</a></button>
-              </div></div></div>
-              <div class="col-sm-12 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="store.jpg" class="card-img-top" alt="store">
-                  <div class="card-body">
-                    <h5 class="card-title">Store Hours</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Service 1</li>
-                    <li class="list-group-item">Service 2</li>
-                    <li class="list-group-item">Service 3</li>
-                  </ul>
-                  <div class="card-body">
-                    <button><a class="a-bisque" href="#adoption">Adopt a pet!</a></button>
-                  </div></div></div>
+            <div class="col-8 dropdown">
+                <h5><a class="dropdown-toggle title" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pet Love</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#about">About</a>
+                  <hr>
+                  <a class="dropdown-item" href="#services">Services</a>
+                  <hr>
+                  <a class="dropdown-item" href="#adoption">Adoption/Fostering</a>
+                </h5></div>
+        <div class="col-1">
+           <button><a href="https://www.squarespace.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-cart3 a-bisque"></i></a></button>
+        </div><div class="col-3">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form></div></div>
+      </div></div></div></div>
+    </nav>
+    <div class="container align-items-center py-5">
+      <div class="row align-items-center">
+          <div class="col-sm-12 col-lg-4">
+    <div class="card">
+      <img src="map.jpg" class="card-img-top" alt="map">
+      <div class="card-body">
+        <h5 class="card-title">Address</h5>
+        <p class="card-text">Cincinnati, OH, near Kenwood Mall:</p>
       </div>
-    </div></div></div></div>
-    <section id="about">
-    <div class="container-fluid dark py-5">
-      <h3>About</h3>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Pet Love Supplies and Services</li>
+        <li class="list-group-item">5555 Bubble Dr, Kenwood</li>
+        <li class="list-group-item">Cincinnati, OH 45236-5555</li>
+      </ul>
+      <div class="card-body">
+        <button><a class="a-bisque" href="https://www.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a> 513-555-5555 <a class="a-bisque" href="https://www.skype.com/en/" target="_blank" rel="noopener noreferrer"><i class="bi bi-skype"></i></a></button>
+      </div></div></div>
+      <div class="col-sm-12 col-lg-4">
+          <div class="card">
+            <img src="pet.jpg" class="card-img-top" alt="cat">
+            <div class="card-body">
+              <h5 class="card-title"><a class="a-coral" href="#about">About</a></h5>
+              <p class="card-text">Meet with us for:</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">In store events</li>
+              <li class="list-group-item">Outdoors adventures</li>
+              <li class="list-group-item">Rescuing efforts</li>
+            </ul>
+            <div class="card-body">
+              <button><a class="a-bisque" href="#about">Send a picture of your pet</a></button>
+            </div></div></div>
+            <div class="col-sm-12 col-lg-4">
+              <div class="card">
+                <img src="store.jpg" class="card-img-top" alt="store">
+                <div class="card-body">
+                  <h5 class="card-title"><a class="a-coral" href="#services">Services</a></h5>
+                  <p class="card-text">Store hours:</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Mon-Sat: 09:00 AM - 09:00 PM</li>
+                  <li class="list-group-item">Sun: 10:00 AM - 06:00 PM</li>
+                  <li class="list-group-item"><a class="a-coral" href="https://www.squarespace.com/" target="_blank" rel="noopener noreferrer">Shop oline <i class="bi bi-cart3"></i></a></li>
+                </ul>
+                <div class="card-body">
+                  <button><a class="a-bisque" href="#adoption">Adopt or foster a pet!</a></button>
+                </div></div></div>
     </div>
-    <div class="container-fluid light">
-    <div class="row"><div class="col-sm-12 col-lg-9 p-5">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, repellendus itaque eaque quae nulla inventore necessitatibus saepe dicta ratione sint eos? Enim alias quia nisi earum reiciendis fuga cum repellat facere excepturi similique? Voluptates vel laborum blanditiis fugit nesciunt consequatur dolor officia? Illo nesciunt officia aliquid maiores, et temporibus nemo? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat explicabo aspernatur magnam hic odio quibusdam quas tempora cum reiciendis blanditiis obcaecati tempore, consectetur iusto vero sequi adipisci aliquid provident aperiam, ratione nihil itaque beatae! Id ea ad, debitis ullam eveniet rem cupiditate. Earum quia autem in saepe dicta, magnam blanditiis!</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta cupiditate minus minima quaerat, itaque deleniti debitis sint voluptates quis quae accusantium ipsa aspernatur at commodi repellat atque laborum deserunt animi.</p>
   </div>
-  <div class="col-sm-12 col-lg-3 p-5">
-       <a href="https://freecatphotoapp.com" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="https://bit.ly/fcc-relaxing-cat" alt="orange cat lying on back"></a>
-       <p>
-        <form id="cat-photo-form" action="https://freecatphotoapp.com/submit-cat-photo">
-         <label for="outdoor"><input type="radio" name="indoor-outdoor" id="indoor" value="indoor">indoor</label>
-         <label for="outdoor"><input type="radio" name="indoor-outdoor" id="outdoor" value="outdoor">outdoor</label>
-         <label for="loving"><input type="checkbox" name="personality" id="loving" value="loving">loving</label>
-         <label for="cute"><input type="checkbox" name="personality" id="cute" value="cute">cute</label>
-         <label for="lazy"><input type="checkbox" name="personality" id="lazy" value="lazy">lazy</label>
-         <br>
-         <input type="text" placeholder="pet photo url" required>
-         <button type="submit">send</button> 
-        <button><a class="a-bisque" href="https://freecatphotoapp.com" target="_blank" data-toggle="tooltip" title="Send a picture and a description of your pet for our Pinterest!"><i class="bi bi-pinterest"></i></a></button></form>
-   </div>
-  </div>
-
-</div></div>
-</section>
-<section id="contact">
+  <section id="about">
   <div class="container-fluid dark py-5">
-    <h3>Contact</h3>
+    <h3>About</h3>
   </div>
   <div class="container-fluid light">
   <div class="row">
-    <div class="col-sm-2 col-lg-1 display-4 py-5">
-      <a class="a-coral" href="#" target="_blank" rel="noopener noreferrer" data-toggle="tooltip" title="Check our events and news!"><i class="bi bi-instagram"></i></a>
-      <a class="a-coral" href="#" target="_blank" rel="noopener noreferrer" data-toggle="tooltip" title="Work or volunteer with us!"><i class="bi bi-linkedin"  ></i></a>
-      <a class="a-coral" href="#" target="_blank" rel="noopener noreferrer" data-toggle="tooltip" title="Join our community!"><i class="bi bi-discord"></i></a>
-      <a class="a-coral" href="#" target="_blank" rel="noopener noreferrer" data-toggle="tooltip" title="Subscribe to our channel for important videos from vets about your pet's health!"><i class="bi bi-youtube"></i></a>
+    <div class="col-sm-2 col-md-2 col-lg-1 display-4 py-5">
+      <a class="a-coral" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" data-toggle="tooltip" title="Check our events and news!"><i class="bi bi-instagram"></i></a>
+      <a class="a-coral" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" data-toggle="tooltip" title="Work or volunteer with us!"><i class="bi bi-linkedin"  ></i></a>
     </div>
-    <div class="col-sm-12 col-lg-11 py-5">
-      <div class="container-fluid light">
-        <div class="row">
-          <div class="col-sm-12 col-lg-11">
-    <h4>Services: Lorem | Ipsum | Dolor</h4>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, repellendus itaque eaque quae nulla inventore necessitatibus saepe dicta ratione sint eos? Enim alias quia nisi earum reiciendis fuga cum repellat facere excepturi similique? Voluptates vel laborum blanditiis fugit nesciunt consequatur dolor officia? Illo nesciunt officia aliquid maiores, et temporibus nemo? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat explicabo aspernatur magnam hic odio quibusdam quas tempora cum reiciendis blanditiis obcaecati tempore, consectetur iusto vero sequi adipisci aliquid provident aperiam, ratione nihil itaque beatae! Id ea ad, debitis ullam eveniet rem cupiditate. Earum quia autem in saepe dicta, magnam blanditiis!</p></div>
+    <div class="col-sm-12 col-lg-7 p-5">
+  <p>We are a small family-friends business who believes all living creatures are equals, including us, humans. And such as humans, other living beings deserve to be treated with love and respect. That is why we do not commercialize animals. We keep tight connections with shelters and foster homes. Thus we guarantee if you come to our store looking for a pet, you won't leave without one!</p>
+  <p>We also work to keep our store as a meeting point for pet and animal lovers where you can talk, hang out and learn about our furry-scaly-feathery friends. That's why you will run into book autographs from animal specialists of all sorts, pannels, scientific presentations and events, movie times, even soirees with poetry and music about animals! We keep our events updates in our <a class="a-coral" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a> profile.</p>
+  <p>Also in our Instagram you can keep up with outdoor meetings, which include strolling around Cincy parks, having fun at the Cincinnati Zoo, watching animals in the wild and rescuing efforts.</p>
+  <p>If you are interested in being part of our team, you can check our <a class="a-coral" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">Linkedin</a> profile for working and volunteering open positions.</p>
+  <p>Drop by to hang out and share a bit of love and caring! And don't forget to send pictures of you pet/s to share in our <a class="a-coral" href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer">Pinterest</a> !</p>
+</div>
+<div class="col-sm-12 col-lg-4 p-5">
+     <a href="https://freecatphotoapp.com" target="_blank" rel="noopener noreferrer"><img class="img-fluid img-square" src="https://bit.ly/fcc-relaxing-cat" alt="orange cat lying on back"></a>
+     <p>
+      <form id="cat-photo-form" action="https://freecatphotoapp.com/submit-cat-photo">
+       <label for="outdoor"><input type="radio" name="indoor-outdoor" id="indoor" value="indoor">indoor</label>
+       <label for="outdoor"><input type="radio" name="indoor-outdoor" id="outdoor" value="outdoor">outdoor</label>
+       <label for="loving"><input type="checkbox" name="personality" id="loving" value="loving">loving</label>
+       <label for="cute"><input type="checkbox" name="personality" id="cute" value="cute">cute</label>
+       <label for="lazy"><input type="checkbox" name="personality" id="lazy" value="lazy">lazy</label>
+       <br><h5>
+       <input type="text" placeholder="pet photo url" required>
+       <button type="submit" class="a-bisque">send</button> 
+      <button><a class="a-bisque" href="https://freecatphotoapp.com" target="_blank" data-toggle="tooltip" title="Send a picture and a description of your pet for our Pinterest!"><i class="bi bi-pinterest"></i></a></button></h5>
+    </h4></form>
+ </div>
+</div>
+
+</div></div>
+</section>
+<section id="services">
+<div class="container-fluid dark py-5">
+  <h3>Services</h3>
+</div>
+<div class="container-fluid light">
+<div class="row">
+  <div class="col-sm-2 col-lg-1 display-4 py-5">
+    
+    <a class="a-coral" href="https://discord.com/" target="_blank" rel="noopener noreferrer" data-toggle="tooltip" title="Join our community!"><i class="bi bi-discord"></i></a>
+    <a class="a-coral" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" data-toggle="tooltip" title="Subscribe to our channel for important videos from vets about your pet's health!"><i class="bi bi-youtube"></i></a>
+  </div>
+  <div class="col-sm-12 col-lg-11 py-5">
+    <div class="container-fluid light">
+      <div class="row">
+        <div class="col-sm-12 col-lg-11">
+  <h5>Grooming/wash</h5>
+<p>Our grooming and wash services is executed with the very same supplies we sell. We use organic, natural based products and we feed the animals with our own homestyle recipe foods, the same products you can buy at our store.
+  We also keep an eye for any health problems you might have missed and warn you to look for a vet. And sign up for our <a class="a-coral" href="https://discord.com/" target="_blank" rel="noopener noreferrer">Discord</a> and <a class="a-coral" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">Youtube</a>  channels, where you can talk to animal lovers from around the world and watch videos about the last trends in pet caring!</p> 
+<h5>Pet-sitting </h5>  
+<p>For pet-sitting, we have a protected area were the animals can play in safety while attended by our team mates. During sitting time, our team mates also walk the animals around the neighborhood.
+  One of our exclusive services is pet-fostering for short periods. Your pet had babies and you can't keep them? Don't worry, just bring them to us and we will find them a home! Due to our tight connections with many animal shelters and fostering homes we keep a big network of caring and protection.</p>
+  <h5>Memorial</h5>
+  <p>For that sad part, we got you covered. We are certified for memorial services and are associated with many veterinarians around Cincinnati. We provide memorial gifts for you to keep and our store can be scheduled as a memorial place if you'd like to share the moment with guests.</p>
+</p></div>
 </div>
 <div class="row" id="adoption">
-  <div class="col-sm-12 col-lg-6">
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeR7FJo_8vFKDsR0gFC7m5vW4-xdAui3HaDTNs6yle83UAu7w/viewform?embedded=true" width="100%" height="1550" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe></div>
-  <div class="col-sm-12 col-lg-6">
-    <div class="embed-responsive embed-responsive-16by9">
-    <iframe name="index" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vQmybFsMloCS9F1iA6EXE5e1N_M9-7H6cTIFz3FrWBJ8wpPZxCf6JMBMcP3Ichfsp5nflYRGxx_VzJk/embed?start=false&loop=false&delayms=60000"></iframe>
-    </div></div>
+<div class="col-sm-12 col-lg-7">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeR7FJo_8vFKDsR0gFC7m5vW4-xdAui3HaDTNs6yle83UAu7w/viewform?embedded=true" width="100%" height="1700" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe></div>
+<div class="col-sm-12 col-lg-5 pt-2">
+  <div class="card"><h4>Adoption/ Fostering:</h4>
+  <div class="embed-responsive embed-responsive-16by9">
+  <iframe name="index" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vQmybFsMloCS9F1iA6EXE5e1N_M9-7H6cTIFz3FrWBJ8wpPZxCf6JMBMcP3Ichfsp5nflYRGxx_VzJk/embed?start=false&loop=false&delayms=60000"></iframe></div>
+  </div></div>
 </div>
 
 </div></div></div></div>
@@ -152,15 +162,15 @@
 <footer>
     <div class="container-fluid dark">
         <div class="row align-items-end">
-            <div class="col">
-    <p>site map</p>
+            <div class="col text-center py-3">
+    Copyright <i class="bi bi-c-circle"></i> <a class="a-bisque" href="https://elianebettocchi.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Eliane Bettocchi</a> 
 </div></div></div></footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script>
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
-    })
+    });
     </script>
 </body>
 </html>

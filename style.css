@@ -10,6 +10,10 @@ body{
     font-size: 18px;
     color: maroon;
  }
+ h4{
+   color: maroon;
+   font-family: Lobster;
+ }
  .a-bisque {
     color: bisque;
     text-decoration: none;
@@ -17,8 +21,14 @@ body{
  .a-coral {
    color: coral;
  }
+.card {
+   width: 100%
+}
 .card-link{
     color: coral;
+}
+.card-body {
+   color: maroon;
 }
  a:hover {
     color: maroon;
@@ -27,12 +37,21 @@ body{
  li{
     font-size: 18px;
     color: maroon;
+ } 
+ .logo{
+   width: 45px;
+   border-radius: 0%;
  }
  img{
     border-radius: 50%;
     border: 2px solid darkkhaki;
-    width: 300px;
+    width: 100%;
  }
+.img-square{
+   border-radius: 20px;
+   border: 2px solid darkkhaki;
+   width: 100%;
+}
  .dark{
     background-color: darkkhaki;
  }
@@ -42,10 +61,10 @@ body{
  #cat-photo-form{
     background-color: bisque;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-bottom: 10px;
-    width: 300px;
-    font-size: 14px;
+    width: 100%;
+    font-size: 15px;
     text-align: center;
     color: maroon;
  }
@@ -57,9 +76,13 @@ button{
  background-color: coral;
  border-radius: 5px;
  border-color: darkkhaki;
+ color: maroon;
 }
-.navbar-brand{
+.title{
     font-family: Lobster;
+    color: bisque;
+    font-size: larger;
+
 }
 .navbar-toggler {
    padding: 0.25rem 0.75rem;
