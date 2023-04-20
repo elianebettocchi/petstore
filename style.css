@@ -52,6 +52,10 @@ body{
    border: 2px solid darkkhaki;
    width: 100%;
 }
+.img-height{
+   height: 300px;
+   width: auto;
+}
  .dark{
     background-color: darkkhaki;
  }
@@ -116,4 +120,7 @@ button{
    background-position: center;
    background-size: 100%;
  }
- 
+ #market{
+   display: flex;
+   flex-wrap: wrap;
+ }
