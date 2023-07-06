@@ -1,6 +1,7 @@
 body{
    background-image: url(background.jpg); 
-   background-size: contain;
+   background-size: auto;
+   background-repeat: repeat;
    background-color:beige;
     padding: 0px;
     margin: auto;
@@ -12,6 +13,10 @@ body{
  }
  h4{
    color: maroon;
+   font-family: Lobster;
+ }
+ h2{
+   color: bisque;
    font-family: Lobster;
  }
  .a-bisque {
@@ -44,12 +49,10 @@ body{
  }
  img{
     border-radius: 50%;
-    border: 2px solid darkkhaki;
     width: 100%;
  }
 .img-square{
    border-radius: 20px;
-   border: 2px solid darkkhaki;
    width: 100%;
 }
 .img-height{
@@ -57,10 +60,10 @@ body{
    width: auto;
 }
  .dark{
-    background-color: darkkhaki;
+    background-color: rgb(208, 110, 75);
  }
  .light{
-    background-color: beige;
+    background-color: rgb(255, 245, 227);
  }
  #cat-photo-form{
     background-color: bisque;
@@ -79,7 +82,7 @@ body{
 button{
  background-color: coral;
  border-radius: 5px;
- border-color: darkkhaki;
+ border-style: none;
  color: maroon;
 }
 .title{
